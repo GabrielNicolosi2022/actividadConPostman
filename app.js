@@ -64,7 +64,6 @@ app.post('/api/palabras', (req, res) => {
     status: 'success',
     message: 'Palabra agregada con éxito',
   });
-  // const agregada = { agregada: nuevaPalabra };
 });
 
 //PUT '/api/palabras/:pos': recibe un objeto con una palabra bajo el campo ‘palabra’ y reemplaza en la frase aquella hallada en la posición dada.
